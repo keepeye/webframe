@@ -1,0 +1,29 @@
+{
+    "name": "webframe",
+    "description": "framework with a admin module based on thinkphp5.0",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "keepeye",
+            "email": "carlton.cheng@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "^5.0",
+        "topthink/think-migration": "^1.1",
+        "topthink/think-image": "^1.0"
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
